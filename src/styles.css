@@ -1,14 +1,21 @@
 @font-face {
     font-family: "myFonts";
-    src: url("./assets/fonts/BroncoPersonalUse.ttf") format("ttf");
+    src: url("assets/fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
-    font-size: larger;
 }
+
 @font-face {
     font-family: "cool";
-    src: url("./assets/fonts/Avenue\ de\ Madison.ttf") format("ttf");
-    
+    src: url("assets/fonts/Lobster-Regular.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "text";
+    src: url("assets/fonts/StoryScript-Regular.ttf") format("trueType");
+    font-style: normal;
 }
 body {
     display: flex;
@@ -25,6 +32,7 @@ button {
     color: #dd7f04;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
     font-family: "myFonts"; 
+    font-size: 20px;
     
 }
 #content {
@@ -41,15 +49,17 @@ button {
     width: 500px;
     height: 500px;
     border-radius: 20px;
+    margin: 0px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 .intro1 , .intro2  , .intro3{
-font-family: "myFonts";
-margin: 0px;
-margin-top: 10px;
+    font-family: "myFonts";
+    margin: 0px;
+    margin-top: 10px;
 }
 .intro1 , .intro3{
     font-size: 30px; 
+    font-family: "text";
 }
 .intro2{
     font-size: 40px;
