@@ -1,4 +1,3 @@
-import "./styles.css";
 import cafeImage from "./assets/images/cafeImage.jpg"
 function view(){
     

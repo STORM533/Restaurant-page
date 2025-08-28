@@ -31,7 +31,7 @@ button {
     border-radius: 20px;
     color: #dd7f04;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-    font-family: "myFonts"; 
+    font-family: "myFonts" ,sans-serif; 
     font-size: 20px;
     
 }
@@ -53,17 +53,17 @@ button {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 .intro1 , .intro2  , .intro3{
-    font-family: "myFonts";
+    font-family: "myFonts" , sans-serif;
     margin: 0px;
     margin-top: 10px;
 }
 .intro1 , .intro3{
     font-size: 30px; 
-    font-family: "text";
+    font-family: "text" , sans-serif;
 }
 .intro2{
     font-size: 40px;
-    font-family: "cool";
+    font-family: "cool" , sans-serif;
 }
 .order{
     width: 100px ;
@@ -71,5 +71,24 @@ button {
     border-radius: 20px;
     color: #dd7f04;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-    font-family: "myFonts";
+    font-family: "myFonts" , sans-serif;
+}
+.para{
+    background-color: #dd7f04;
+    width: 1000px;
+    height: 300px;
+    font-family: "text" , sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+.image{
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }

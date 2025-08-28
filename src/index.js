@@ -1,8 +1,9 @@
 import {view} from "./home.js"
 import {about} from "./about.js"
 import {menu} from "./menu.js"
-view();
+import "./styles.css";
 function tabbing (){
+    view();
     const btn1 = document.querySelector("#about");
     const btn2 = document.querySelector("#home");
     const btn3 = document.querySelector("#menu");
